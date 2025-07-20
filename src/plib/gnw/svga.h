@@ -16,7 +16,7 @@ extern SDL_Window* gSdlWindow;
 extern SDL_Surface* gSdlSurface;
 extern SDL_Renderer* gSdlRenderer;
 extern SDL_Texture* gSdlTexture;
-extern SDL_Surface* gSdlTextureSurface;
+//extern SDL_Surface* gSdlTextureSurface;
 extern FpsLimiter sharedFpsLimiter;
 
 void GNW95_SetPaletteEntries(unsigned char* a1, int a2, int a3);
