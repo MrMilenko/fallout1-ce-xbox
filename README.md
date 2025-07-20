@@ -1,3 +1,24 @@
+# Xbox Specific
+This source has been patched to run on an original Xbox.
+
+I havent taken the time to separate and wrap code so it can be "selected" as such. This was a dirty learning experience.
+
+## What "works"
+- Xbox Joystick as mouse
+- New Game
+
+## What doesn't
+- Saving/Loading Games
+- Videos are glitchy
+- Text errors
+
+This isnt.. "playable" but its "playable"
+
+To build:
+- Install NXDK
+- make (might have hardcoded paths to my home folder, sorry didnt sanitize code)
+- ezpz
+
 # Fallout Community Edition
 
 Fallout Community Edition is a fully working re-implementation of Fallout, with the same original gameplay, engine bugfixes, and some quality of life improvements, that works (mostly) hassle-free on multiple platforms.
